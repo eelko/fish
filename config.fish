@@ -7,6 +7,7 @@ alias tm='tmux new-session -s "$(git rev-parse --abbrev-ref HEAD)"'
 alias bfm=build_for_medido
 alias gco='git checkout'
 alias lg=lazygit
+alias l='eza -l --git-repos --git'
 
 set PATH $PATH $HOME/.local/bin
 
